@@ -1,0 +1,1 @@
+Cdk.LargestPiSystem.nAtomP,Cdk.BondCount.nB,Cdk.LargestChain.nAtomLC,Cdk.AromaticAtomsCount.naAromAtom,Cdk.AromaticBondsCount.nAromBond,Cdk.ALOGP.ALogP,Cdk.RotatableBondsCount.nRotB,Cdk.MannholdLogP.MLogP,Cdk.XLogP.XLogP,Cdk.RuleOfFive.LipinskiFailures,Cdk.ALOGP.ALogp2,Cdk.ALOGP.AMR,Cdk.LongestAliphaticChain.nAtomLAC,Cdk.HBondDonorCount.nHBDon,Cdk.AtomCount.nAtom

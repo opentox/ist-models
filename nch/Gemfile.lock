@@ -1,0 +1,53 @@
+PATH
+  remote: .
+  specs:
+    opentox-nch (0.0.1)
+      opentox-client
+      rinruby
+
+PATH
+  remote: ../../opentox-client
+  specs:
+    opentox-client (1.0.0pre1)
+      bundler
+      open4
+      openbabel
+      rdf
+      rdf-raptor
+      rdf-turtle
+      rest-client
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ebnf (0.3.6)
+      haml (~> 4.0)
+      rdf (~> 1.1)
+      sxp (~> 0.1, >= 0.1.3)
+    ffi (1.9.3)
+    haml (4.0.5)
+      tilt
+    mime-types (2.3)
+    netrc (0.7.7)
+    open4 (1.3.4)
+    openbabel (2.3.2.0)
+    rdf (1.1.5)
+    rdf-raptor (1.2.0)
+      ffi (>= 1.9.3)
+      rdf (>= 1.1.0)
+    rdf-turtle (1.1.4)
+      ebnf (~> 0.3, >= 0.3.6)
+      rdf (~> 1.1, >= 1.1.4)
+    rest-client (1.7.2)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    rinruby (2.0.3)
+    sxp (0.1.5)
+    tilt (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  opentox-client!
+  opentox-nch!
