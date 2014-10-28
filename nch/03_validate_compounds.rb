@@ -37,8 +37,8 @@ DATA.each do |d|
       File.open("data/03/#{d}_uniq.csv","w").puts "\""+(["InChI"]+@inchis).join("\"\n\"")+"\""
       puts @inchis.size.to_s+" uniq compounds in complete-set (written to data/03/#{d}_uniq.csv)"
     else
-      raise "complete-set inchis not found in features-set #{@inchis.inspect}" unless @inchis.size==0
-      puts "inchis in features-set uniq and all included in complete-set"
+      raise "complete-set inchis not found in orig-features-set #{@inchis.inspect}" unless @inchis.size==0
+      puts "inchis in orig-features-set uniq and all included in complete-set"
     end
 
   end
