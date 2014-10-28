@@ -2,8 +2,9 @@
 
 scripts
 -------------------------------------
-* results are stored in the data folder in the corresponding sub-folders: 01, 02, ...
-* config.rb defines which datasets to employ and stores URIs of already uploaded files
+results are stored in the data folder in the corresponding sub-folders: 01, 02, ...
+
+config.rb defines which datasets to employ and stores URIs of already uploaded files
 
 * 01_fetch - copies data from old repository and converts to a consistent naming scheme
 * 02_decode_inchi.rb - decodes inchis and renames SMILES column to InChI
