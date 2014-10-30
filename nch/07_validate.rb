@@ -13,7 +13,9 @@ DATA.each do |d|
   prediction_feature = prediction_feature(d)
   test_dataset_uri = test_dataset_uri(d) if d=="MOU"
 
-  [ new_feature_dataset_uri(d), orig_feature_dataset_uri(d) ].each do |feature_dataset_uri|
+  [ #new_feature_dataset_uri(d), 
+    orig_feature_dataset_uri(d)
+  ].each do |feature_dataset_uri|
     puts "\nvalidating with features #{feature_dataset_uri}"
 
     params = { :dataset_uri => dataset_uri,

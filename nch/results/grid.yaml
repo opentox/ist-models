@@ -1,0 +1,151 @@
+0.9
+random-seed:0
+---
+- :min_sim: 0.2
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/44
+  :r_square: 0.6022551813587134
+  :unpredicted: '0'
+- :min_sim: 0.4
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/45
+  :r_square: 0.6796007578295739
+  :unpredicted: '0'
+- :min_sim: 0.6
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/46
+  :r_square: 0.657330788592535
+  :unpredicted: '0'
+- :min_sim: 0.8
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/48
+  :r_square: 0.661561905445333
+  :unpredicted: '17'
+
+0.8
+random-seed:1
+---
+- :min_sim: 0.2
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/50
+  :r_square: 0.6030899122765869
+  :unpredicted: '0'
+- :min_sim: 0.4
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/51
+  :r_square: 0.6043871746312677
+  :unpredicted: '0'
+- :min_sim: 0.6
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/52
+  :r_square: 0.6191244139466336
+  :unpredicted: '0'
+
+0.66
+random-seed:2
+
+---
+- :min_sim: 0.0
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/54
+  :r_square: 0.45370176424121433
+  :unpredicted: '0'
+- :min_sim: 0.1
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/55
+  :r_square: 0.4595956327160562
+  :unpredicted: '0'
+- :min_sim: 0.2
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/56
+  :r_square: 0.4277448070809924
+  :unpredicted: '0'
+- :min_sim: 0.3
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/57
+  :r_square: 0.44307217405529253
+  :unpredicted: '0'
+- :min_sim: 0.4
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/58
+  :r_square: 0.4536563787494641
+  :unpredicted: '0'
+- :min_sim: 0.5
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/59
+  :r_square: 0.4461298986550688
+  :unpredicted: '0'
+- :min_sim: 0.6
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/60
+  :r_square: 0.4720263367371236
+  :unpredicted: '1'
+- :min_sim: 0.7
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/61
+  :r_square: 0.5057497593073133
+  :unpredicted: '15'
+- :min_sim: 0.8
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/62
+  :r_square: 0.5505636328364947
+  :unpredicted: '65'
+
+complete cv
+min_sim 0
+---
+- :min_sim: 0.4
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/65
+  :r_square: 0.49992001578007306
+  :unpredicted: '0'
+- :min_sim: 0.5
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/66
+  :r_square: 0.5048172615733829
+  :unpredicted: '0'
+- :min_sim: 0.55
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/67
+  :r_square: 0.5108609305937302
+  :unpredicted: '1'
+- :min_sim: 0.6
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/68
+  :r_square: 0.5022488522195739
+  :unpredicted: '1'
+- :min_sim: 0.65
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/69
+  :r_square: 0.5113758122376881
+  :unpredicted: '12'
+- :min_sim: 0.7
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/70
+  :r_square: 0.5133188488988734
+  :unpredicted: '44'
+
+
+skip_ratio = 0.8
+random_seed = 3
+---
+- :min_sim: 0.65
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/73
+  :r_square: 0.28572954365573644
+  :unpredicted: '3'
+  :features: all-pc-features
+- :min_sim: 0.65
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/74
+  :r_square: 0.20115321576362188
+  :unpredicted: '3'
+  :features: new-pc-features
+- :min_sim: 0.65
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/76
+  :r_square: 0.013357820165398548
+  :unpredicted: '5'
+  :features: ob-pc-features
+
+
