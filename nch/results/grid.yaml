@@ -126,8 +126,9 @@ min_sim 0
   :unpredicted: '44'
 
 
-skip_ratio = 0.8
-random_seed = 3
+# comparin features
+# skip_ratio = 0.8
+# random_seed = 3
 ---
 - :min_sim: 0.65
   :min_train: 0.0
@@ -149,3 +150,20 @@ random_seed = 3
   :features: ob-pc-features
 
 
+# all features on complete loocv
+---
+- :min_sim: 0.65
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/77
+  :r_square: 0.4914116499931924
+  :unpredicted: '29'
+  :features: all-pc-features
+
+# compare different min_sims with all-features on complete loocv
+---
+- :min_sim: 0.2
+  :min_train: 0.0
+  :cv: http://localhost:8087/validation/crossvalidation/78
+  :r_square: 0.5033017681500125
+  :unpredicted: '0'
+  :features: all-pc-features

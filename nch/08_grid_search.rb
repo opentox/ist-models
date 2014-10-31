@@ -20,7 +20,7 @@ DATA.each do |d|
 #    new_feature_dataset_uri(d)=>"new-pc-features",
 #    ob_feature_dataset_uri(d)=>"ob-pc-features",
   }.each do |feature_dataset_uri,f_desc|
-    [ 0.65 ].each do |min_sim| # [0.2,0.4,0.6,0.8]
+    [ 0.2, 0.4, 0.6 ].each do |min_sim| # [0.2,0.4,0.6,0.8]
       [ 0.0 ].each do |min_train| #[0.0,0.1,0.2]
 
         puts "\nfeatures #{f_desc}"
